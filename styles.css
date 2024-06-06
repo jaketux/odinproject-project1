@@ -11,6 +11,24 @@ padding:0;
 margin:0;
 }
 
+.bottom-panel{display:flex;
+    justify-content:center;
+    align-items:center;
+    height:375px;
+    background-color: white;
+    padding:0;
+    margin:0;
+}
+
+.footer-panel{display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400;
+    background-color: #1F2937;
+    padding:0;
+    margin:0;
+}
+
 .testimonial-panel{height:400px;
 background-color:#E5E7EB;
 padding:0;
@@ -118,3 +136,54 @@ text-align:center;
 font-weight:600;
 font-size:24px;
 text-align:right;}
+
+.calltoaction-container{display:flex;
+    justify-content:center;
+    align-items:center;
+    height:150px;
+width:1000px;
+background-color:#3882F6;
+border-radius:10px;
+font-family:Roboto;}
+
+.calltoaction-left-container{padding-right:150px;}
+
+.calltoaction-text1{font-size:24px;
+color:#f9faf8;
+font-weight:600;
+}
+
+.calltoaction-text2{font-size:18px;
+    color:#f9faf8;
+    font-weight:300;
+font-family:Roboto;}
+
+.calltoaction-button{background:none;
+border:solid 2px white;
+padding-top: 5px; 
+padding-bottom: 5px;
+padding-left:30px;
+padding-right:30px;
+border-radius:7px;
+font-size:18px;
+font-family:Roboto;
+color:white;
+font-weight:600}
+
+.hero-button{background:#3882F6;
+    border:solid 2px #3882F6;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:7px;
+    font-size:18px;
+    font-family:Roboto;
+    color:white;
+    font-weight:600}
+
+.footer-text{font-size:18px;
+        color:#f9faf8;
+        font-weight:500;
+    font-family:Roboto;
+padding:30px}
